@@ -1,0 +1,20 @@
+{
+  "name": "dev-book-archive",
+  "version": "1.0.0",
+  "description": "개발 도서를 읽고 핵심 개념과 사고 과정을 정리한 개인 아카이브",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chan9yu/dev-book-archive.git"
+  },
+  "license": "UNLICENSED",
+  "author": "chan9yu <dev.cgyeo@gmail.com>",
+  "private": true,
+  "packageManager": "pnpm@10.29.2",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.0"
+  }
+}
